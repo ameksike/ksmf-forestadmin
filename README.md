@@ -7,11 +7,14 @@ For further information consult the following links:
 
 ## Install
 
-- Set the configuration file: ``` cfg\core.json ```
+- Set the configuration file: `cfg\core.json`
 
 ```json
 {
   "onLoadedModules": ["ksmf.forestadmin.wrapper"]
 }
 ```
+- Set the required enviroments vars
+  - FOREST_AUTH_SECRET
+  - FOREST_ENV_SECRET
 - [Check the project](https://app.forestadmin.com/projects)
