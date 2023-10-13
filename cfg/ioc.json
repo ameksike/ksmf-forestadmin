@@ -1,0 +1,9 @@
+{
+  "ksfm.forestadmin.wrapper": {
+    "name": "ksmf-forestadmin",
+    "type": "lib",
+    "dependency": {
+      "helper": "helper"
+    }
+  }
+}

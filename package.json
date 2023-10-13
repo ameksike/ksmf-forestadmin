@@ -1,0 +1,37 @@
+{
+  "name": "ksmf-forestadmin",
+  "version": "1.0.0",
+  "description": "KsMf ForestAdmin Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameksike/ksmf-forestadmin.git"
+  },
+  "keywords": [
+    "Ksike",
+    "KSMF",
+    "KSDP",
+    "KSCRYP",
+    "CLI",
+    "REST",
+    "API"
+  ],
+  "author": {
+    "name": "Antonio Membrides Espinosa",
+    "email": "tonykssa@gmail.com",
+    "url": "https://github.com/ameksike"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameksike/ksmf-forestadmin/issues"
+  },
+  "homepage": "https://github.com/ameksike/ksmf-forestadmin#readme",
+  "dependencies": {
+    "@forestadmin/agent": "^1.35.9",
+    "@forestadmin/datasource-sequelize": "^1.5.24",
+    "ksmf": "^1.2.32"
+  }
+}
