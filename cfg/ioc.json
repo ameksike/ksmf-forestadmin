@@ -1,5 +1,5 @@
 {
-  "ksfm.forestadmin.wrapper": {
+  "ksmf.forestadmin.wrapper": {
     "name": "ksmf-forestadmin",
     "type": "lib",
     "dependency": {

@@ -11,7 +11,16 @@ For further information consult the following links:
 
 ```json
 {
-  "onLoadedModules": ["ksmf.forestadmin.wrapper"]
+  "onLoadedModules": ["ksmf.forestadmin.wrapper"],
+  "helper": {
+      "ksmf.forestadmin.wrapper": {
+        "name": "ksmf-forestadmin",
+        "type": "lib",
+        "dependency": {
+          "helper": "helper"
+        }
+      }
+  }
 }
 ```
 - Set the required enviroments vars
